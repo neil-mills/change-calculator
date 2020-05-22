@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results renders the results 1`] = `
+<DocumentFragment>
+  <section
+    class="box"
+  >
+    <p
+      class="title is-4"
+    >
+      You supplied , with a product price of 
+    </p>
+    <p
+      class="title is-5"
+    >
+      This is your change:
+    </p>
+    <ul
+      class="title is-5"
+      data-testid="results"
+    >
+      <li
+        data-testid="result-item"
+      >
+        <span>
+          1x £20
+        </span>
+      </li>
+      <li
+        data-testid="result-item"
+      >
+        <span>
+          1x £10
+        </span>
+      </li>
+      <li
+        data-testid="result-item"
+      >
+        <span>
+          1x 50p
+        </span>
+      </li>
+    </ul>
+    <p
+      class="title is-4"
+    >
+      Total change: 
+    </p>
+  </section>
+</DocumentFragment>
+`;
