@@ -98,7 +98,7 @@ describe('Calculator', () => {
   });
   describe('Integration tests', () => {
     it('displays the correct results', () => {
-      const { getByTestId, getAllByTestId, debug } = renderComponent(<div><Calculator /><Results /></div>);
+      const { getByTestId, getAllByTestId } = renderComponent(<div><Calculator /><Results /></div>);
       const currency = getByTestId('currency-select');
       const price = getByTestId('price-input');
       const tendered = getByTestId('tendered-input');
@@ -107,8 +107,7 @@ describe('Calculator', () => {
       fireEvent.change(tendered, { target: { value: '20.00' } });
       fireEvent.click(getByTestId('submit-button'));
       const results = getAllByTestId('result-item');
-      debug();
-      expect(results.length).toEqual(4);
+      expect(results.length).toEqual(4); 
 
     })
   })
