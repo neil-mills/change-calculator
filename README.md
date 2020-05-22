@@ -21,6 +21,7 @@ If i was to spend additional time on development the application, I would:
 - Enhance the UI, possibly removing Bulma as a dependency and using styling components
 - Remove custom validation hook and replace with a dependency such as validation.js
 - Improve validation to check for zero values on price and tendered fields.
+- Remove results with each new submit of calculator form
 - Improve test coverage of components
 
 ## Running the app
