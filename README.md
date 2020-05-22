@@ -16,7 +16,7 @@ For testing, i've used Jest and React Testing Library by Kent C Dodds which come
 
 ## To do
 
-If i was to spend additional time on development the application, I would:
+If i was to spend additional time on development of the application, I would:
 
 - Enhance the UI, possibly removing Bulma as a dependency and using styling components
 - Remove custom validation hook and replace with a dependency such as validation.js
